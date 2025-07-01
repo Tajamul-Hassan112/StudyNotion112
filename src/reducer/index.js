@@ -1,3 +1,6 @@
+
+
+/* Root reducer to combine all slice reducers */
 import { combineReducers } from "@reduxjs/toolkit";
 
 import authReducer from "../slices/AuthSlice"
